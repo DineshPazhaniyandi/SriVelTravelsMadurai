@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us | SriVel Travels</title>
+  <meta name="description" content="Contact SriVel Travels— call or WhatsApp to book sedan, SUV, Innova or tempo traveller.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="images/logo.svg" alt="">
+        <span>
+          <span class="logo-name">SriVel Travels</span>
+          <span class="logo-tag">Cars on call</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="tariff.html">Tariff</a>
+        <a href="package.html">Package</a>
+        <a class="active" href="contact.html">Contact us</a>
+        <a class="nav-call" href="tel:+919944011851">Call now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <div class="wrap">
+        <h1>Contact us</h1>
+        <p>Call, WhatsApp, or send trip details. We reply with car availability and a confirmed fare.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap contact-grid">
+        <div class="contact-card">
+          <h2>Desk</h2>
+          <p><strong>Phone</strong><br><a href="tel:+919944011851">+919944011851</a></p>
+          <p><strong>WhatsApp</strong><br><a href="https://wa.me/919944011851" target="_blank" rel="noopener">Chat to book</a></p>
+          <p><strong>Hours</strong><br>24×7 booking line</p>
+          <p><strong>Office</strong><br>Madurai, Tamil Nadu</p>
+          <p class="meta">Phone: +919944011851,+918610607172</p>
+	<p class="meta">Email: sriveltravels2018@gmail.com</p>
+        </div>
+        <form id="enquiry-form">
+          <h2>Send trip details</h2>
+          <p class="meta">Opens WhatsApp with a filled message. Nothing is stored on a server.</p>
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" required autocomplete="name">
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" required autocomplete="tel">
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="pickup">Pickup</label>
+              <input id="pickup" name="pickup" required placeholder="Address or airport">
+            </div>
+            <div>
+              <label for="drop">Drop</label>
+              <input id="drop" name="drop" required placeholder="Address or outstation">
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="car">Car</label>
+              <select id="car" name="car">
+                <option>Sedan</option>
+                <option>SUV / Ertiga</option>
+                <option>Innova Crysta</option>
+                <option>Tempo traveller 12</option>
+                <option>Tempo traveller 17</option>
+              </select>
+            </div>
+            <div>
+              <label for="date">Date</label>
+              <input id="date" name="date" type="date" required>
+            </div>
+          </div>
+          <label for="note">Notes</label>
+          <textarea id="note" name="note" placeholder="Time, passengers, luggage"></textarea>
+          <div class="actions" style="margin-top:18px">
+            <button class="btn btn-dark" type="submit">Continue on WhatsApp</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h3>SriVel Travels</h3>
+        <p>Car rental with driver for city, airport and outstation.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tariff.html">Tariff</a></li>
+          <li><a href="package.html">Package</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Book</h3>
+        <ul>
+          <li><a href="tel:+919944011851">+919944011851</a></li>
+          <li><a href="https://wa.me/919944011851" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© 2026 SriVel Travels. All rights reserved.</p>
+  </footer>
+  <a class="float-wa" href="https://wa.me/919944011851" target="_blank" rel="noopener">WhatsApp</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
